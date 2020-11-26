@@ -7,8 +7,206 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | myteam website challenge - Contact</title>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./app/css/main.css">
+
 </head>
 <body>
+
+  <!-- Header -->
+  <header class="header"> 
+
+    <!-- Wrapper -->
+    <div class="wrapper">
+
+      <!-- Navigation -->
+      <nav class="nav--header">
+
+        <!-- Logo -->
+        <a href="/" class="nav__logo"><img src="./images/logo.svg" alt="MyTeam Logo"></a>
+
+        <!-- Navigation Menu -->
+        <ul class="nav__menu" id="menu">
+          <li class="nav__item"><a href="/index.html" class="nav__link">home</a></li>
+          <li class="nav__item"><a href="/about.html" class="nav__link">about</a></li>
+          <a href="/contact.html" class="btn btn--primary-light hide-for-desktop">contact us</a>
+        </ul>
+
+        <!-- Navigation Toggle Button -->
+        <button class="nav__toggle hide-for-desktop" id="navToggle"></button>
+
+      </nav>
+
+      <!-- CTA Button -->
+      <a href="/contact.html" class="btn btn--primary-light hide-for-mobile">contact us</a>
+
+
+
+    </div> <!-- // Wrapper -->
+
+  </header> <!-- // Header -->
+
+  <!-- Main -->
+  <main class="main main--contact">
+
+    <!-- Section - Contact -->
+    <section class="section contact">
+
+      <!-- Wrapper -->
+      <div class="wrapper">
+
+        <!-- Text Container -->
+        <div class="contact__text-container">
+
+          <!-- Contact Header -->
+          <header class="contact__header">
+            <h2 class="heading heading--2"></h2>
+          </header>
+
+          <p class="text-xl"></p>
+
+          <!-- Features List -->
+        <ul class="features__list">
+
+          <!-- Features Item - 01 -->
+          <li class="features__item">
+
+            <img src="./images/icon-person.svg" alt="An icon of a person" class="features__icon">
+
+            <div class="features__text-container">
+
+              <p class="paragraph">
+                Our network is made up of highly experienced professionals who are 
+                passionate about what they do.
+              </p>
+
+            </div>
+
+          </li> <!-- // Features Item - 01 -->
+
+          <!-- Features Item - 02 -->
+          <li class="features__item">
+
+            <img src="./images/icon-cog.svg" alt="An icon of a gear" class="features__icon">
+
+            <div class="features__text-container">
+
+              <p class="paragraph">
+                Our processes have been refined over years of implementation meaning 
+                our teams always deliver.
+              </p>
+
+            </div>
+
+          </li> <!-- // Features Item - 02 -->
+
+          <!-- Features Item - 03 -->
+          <li class="features__item">
+
+            <img src="./images/icon-chart.svg" alt="An icon of a chart" class="features__icon">
+
+            <div class="features__text-container">
+
+              <p class="paragraph">
+                Our customized platform with in-built analytics helps you manage your 
+                distributed teams.
+              </p>
+
+            </div>
+
+          </li> <!-- // Features Item - 03 -->
+
+        </ul> <!-- // Features List -->
+
+        </div> <!-- // Text Container -->
+
+        <!-- Contact Form -->
+        <form action="" class="form form--contact" id="form">
+
+          <div class="form__control">
+            <input type="text" name="" id="" placeholder="Name">
+            <small class="message"></small>
+          </div>
+
+          <div class="form__control">
+            <input type="email" name="" id="" placeholder="Email Address">
+            <small class="message"></small>
+          </div>
+
+          <div class="form__control">
+            <input type="text" name="" id="" placeholder="Company Name">
+            <small class="message"></small>
+          </div>
+
+          <div class="form__control">
+            <input type="text" name="" id="" placeholder="Title">
+            <small class="message"></small>
+          </div>
+
+          <div class="form__control">
+            <textarea name="" id="" cols="30" rows="10" class="form__textarea" placeholder="Message"></textarea>
+            <small class="message"></small>
+          </div>
+
+          <button type="submit" class="btn btn--secondary"></button>
+
+        </form>
+
+      </div> <!-- // Wrapper -->
+
+      <!-- Shapes -->
+      <div class="shape shape--contact-1"></div>
+      <div class="shape shape--contact-2"></div>
+
+    </section> <!-- // Section - Contact -->
+
+  </main> <!-- // Main -->
+
+  <!-- Footer -->
+  <footer class="footer">
+
+    <!-- Wrapper -->
+    <div class="wrapper">
+
+      <!-- Navigation -->
+      <nav class="nav nav--footer">
+
+        <!-- Logo -->
+        <a href="/" class="nav__logo"><img src="./images/logo.svg" alt="MyTeam Logo"></a>
+
+        <!-- Navigation Menu -->
+        <ul class="nav__menu">
+          <li class="nav__item"><a href="#" class="nav__link">home</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">about</a></li>
+        </ul>
+
+      </nav> <!-- // Navigation -->
+
+      <!-- Address Info -->
+      <address class="contact-info">
+        <p class="paragraph">
+          987  Hillcrest Lane <br>
+          Irvine, CA <br>
+          California 92714 <br>
+          Call Us : <a href="tel:9498337432">949-833-7432</a>
+        </p>
+      </address> <!-- // Address Info -->
+
+      <!-- Social -->
+      <ul class="social">
+        <li class="social__item"><img src="./images/icon-facebook.svg" alt="Facebook Icon" class="social__icon"></li>
+        <li class="social__item"><img src="./images/icon-pinterest.svg" alt="Pinterest Icon" class="social__icon"></li>
+        <li class="social__item"><img src="./images/icon-twitter.svg" alt="Twitter Icon" class="social__icon"></li>
+      </ul> <!-- // Social -->
+
+      <p class="copyright">
+        Copyright 2020. All Rights Reserved
+      </p>
+
+    </div> <!-- // Wrapper -->
+
+  </footer> <!-- // Footer -->
 
   home
   about
