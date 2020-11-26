@@ -1,0 +1,19 @@
+/*
+    ------------------------
+    ------ Utilities -------
+    ------------------------
+*/
+
+// Visibilty Classes
+
+.hide-for-desktop{
+    @include breakpoint-up(medium){
+        display: none !important;
+    }
+}
+
+.hide-for-mobile{
+    @include breakpoint-down(small){
+        display: none !important;
+    }
+}
