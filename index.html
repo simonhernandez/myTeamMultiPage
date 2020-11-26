@@ -7,77 +7,325 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | myteam website challenge - Homepage</title>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./app/css/main.css">
+
 </head>
 <body>
 
-  home
-  about
+  <!-- Header -->
+  <header class="header"> 
 
-  contact us
+    <!-- Wrapper -->
+    <div class="wrapper">
 
+      <!-- Navigation -->
+      <nav class="nav--header">
 
+        <!-- Logo -->
+        <a href="/" class="nav__logo"><img src="./images/logo.svg" alt="MyTeam Logo"></a>
 
-  Find the best talent
+        <!-- Navigation Menu -->
+        <ul class="nav__menu" id="menu">
+          <li class="nav__item"><a href="/index.html" class="nav__link">home</a></li>
+          <li class="nav__item"><a href="/about.html" class="nav__link">about</a></li>
+          <a href="/contact.html" class="btn btn--primary-light hide-for-desktop">contact us</a>
+        </ul>
 
-  Finding the right people and building high performing teams can 
-  be hard. Most companies aren’t tapping into the abundance of global 
-  talent. We’re about to change that.
+        <!-- Navigation Toggle Button -->
+        <button class="nav__toggle hide-for-desktop"></button>
 
+      </nav>
 
-
-  Build & manage distributed teams like no one else.
-
-  Experienced Individuals
-  Our network is made up of highly experienced professionals who are 
-  passionate about what they do.
-
-  Easy to Implement
-  Our processes have been refined over years of implementation meaning 
-  our teams always deliver.
-
-  Enhanced Productivity
-  Our customized platform with in-built analytics helps you manage your 
-  distributed teams.
+      <!-- CTA Button -->
+      <a href="/contact.html" class="btn btn--primary-light hide-for-mobile">contact us</a>
 
 
 
-  Delivering real results for top companies. Some of our success stories.
+    </div> <!-- // Wrapper -->
 
-  “The team perfectly fit the specialized skill set required. They focused 
-  on the most essential features helping us launch the platform eight months 
-  faster than planned.”
-  Kady Baker
-  Product Manager at Bookmark
+  </header> <!-- // Header -->
 
-  “We needed to automate our entire onboarding process. The team came in and 
-  built out the whole journey. Since going live, user retention has gone 
-  through the roof!”
-  Aiysha Reese
-  Founder of Manage
+  <!-- Main -->
+  <main class="main main--home">
 
-  “Amazing. Our team helped us build an app that delivered a new experience for 
-  hiring a physio. The launch was an instant success with 100k downloads in the 
-  first month.”
-  Arthur Clarke
-  Co-founder of MyPhysio
+    <!-- Section - Hero -->
+    <section class="section hero">
 
+      <!-- Wrapper -->
+      <div class="wrapper">
 
+        <!-- Text Container -->
+        <div class="hero__text-container">
 
-  Ready to get started?
+          <header class="hero__header">
+            <h1 class="heading heading--1">
+              Find the <br>
+              best <span class="text-light-coral">talent</span>
+            </h1>
+          </header>
 
-  contact us
+          <p class="paragraph paragraph--line-on-top">
+            Finding the right people and building high performing teams can 
+            be hard. Most companies aren’t tapping into the abundance of global 
+            talent. We’re about to change that.
+          </p>
+        </div> <!-- // Text Container -->
+        
+      </div> <!-- // Wrapper -->
 
+      <!-- Shapes -->
+      <div class="shape shape--home-1"></div>
+      <div class="shape shape--home-2"></div>
+      
+    </section> <!-- // Section - Hero -->
 
+    <!-- Section - Features -->
+    <section class="section features">
 
-  home
-  about
+      <!-- Wrapper -->
+      <div class="wrapper">
 
-  987  Hillcrest Lane
-  Irvine, CA
-  California 92714
-  Call Us : 949-833-7432
+        <!-- Section Header -->
+        <header class="section__header">
+          <h2 class="heading heading--2 heading--line-on-top">
+            Build & manage distributed teams like no one else.
+          </h2>
+        </header>
 
-  Copyright 2020. All Rights Reserved
-  
+        <!-- Features List -->
+        <ul class="features__list">
+
+          <!-- Features Item - 01 -->
+          <li class="features__item">
+
+            <img src="./images/icon-person.svg" alt="An icon of a person" class="features__icon">
+
+            <div class="features__text-container">
+
+              <h3 class="heading heading--3">Experienced Individuals</h3>
+              <p class="paragraph">
+                Our network is made up of highly experienced professionals who are 
+                passionate about what they do.
+              </p>
+
+            </div>
+
+          </li> <!-- // Features Item - 01 -->
+
+          <!-- Features Item - 02 -->
+          <li class="features__item">
+
+            <img src="./images/icon-cog.svg" alt="An icon of a gear" class="features__icon">
+
+            <div class="features__text-container">
+
+              <h3 class="heading heading--3">Easy to Implement</h3>
+              <p class="paragraph">
+                Our processes have been refined over years of implementation meaning 
+                our teams always deliver.
+              </p>
+
+            </div>
+
+          </li> <!-- // Features Item - 02 -->
+
+          <!-- Features Item - 03 -->
+          <li class="features__item">
+
+            <img src="./images/icon-chart.svg" alt="An icon of a chart" class="features__icon">
+
+            <div class="features__text-container">
+
+              <h3 class="heading heading--3">Enhanced Productivity</h3>
+              <p class="paragraph">
+                Our customized platform with in-built analytics helps you manage your 
+                distributed teams.
+              </p>
+
+            </div>
+
+          </li> <!-- // Features Item - 03 -->
+
+        </ul> <!-- // Features List -->
+
+      </div> <!-- // Wrapper -->
+
+      <!-- Shapes -->
+      <div class="shape shape--home-3"></div>
+
+    </section> <!-- // Section - Features -->
+
+    <!-- Section - Testimonials -->
+    <section class="section testimonials">
+
+      <!-- Wrapper -->
+      <div class="wrapper">
+
+        <!-- Section Header -->
+        <header class="section__header">
+          <h2 class="heading heading--2">
+            Delivering real results for top companies. Some of our
+            <span class="text-rapture-blue">success stories.</span>
+          </h2>
+        </header>
+
+        <!-- Testimonials List -->
+        <ul class="testimonials__list">
+
+          <!-- Testimonial Item - 01 -->
+          <li class="testimonials__item">
+
+            <!-- Testimonial -->
+            <figure class="testimonial">
+
+              <!-- Testimonial Quote -->
+              <blockquote class="testimonial__quote">
+                “The team perfectly fit the specialized skill set required. They focused 
+                on the most essential features helping us launch the platform eight months 
+                faster than planned.”
+              </blockquote>
+
+              <!-- Testimonial Profile -->
+              <figcaption class="testimonial__author">
+                <h4 class="heading heading--4 text-rupture-blue">Kady Baker</h4>
+                <small class="testimonial__author-position">Product Manager at Bookmark</small>
+
+                <img src="./images/avatar-kady.jpg" alt="A Profile Image of Kady Baker" class="testimonial__img">
+              </figcaption>
+
+            </figure>
+
+          </li> <!-- // Testimonial Item - 01 -->
+
+          <!-- Testimonial Item - 02 -->
+          <li class="testimonials__item">
+
+            <!-- Testimonial -->
+            <figure class="testimonial">
+
+              <!-- Testimonial Quote -->
+              <blockquote class="testimonial__quote">
+                “We needed to automate our entire onboarding process. The team came in and 
+                built out the whole journey. Since going live, user retention has gone 
+                through the roof!”
+              </blockquote>
+
+              <!-- Testimonial Profile -->
+              <figcaption class="testimonial__author">
+                <h4 class="heading heading--4 text-rupture-blue">Aiysha Reese</h4>
+                <small class="testimonial__author-position">Founder of Manage</small>
+
+                <img src="./images/avatar-kady.jpg" alt="A Profile Image of Kady Baker" class="testimonial__img">
+              </figcaption>
+
+            </figure>
+
+          </li> <!-- // Testimonial Item - 02 -->
+
+          <!-- Testimonial Item - 03 -->
+          <li class="testimonials__item">
+
+            <!-- Testimonial -->
+            <figure class="testimonial">
+
+              <!-- Testimonial Quote -->
+              <blockquote class="testimonial__quote">
+                “Amazing. Our team helped us build an app that delivered a new experience for 
+                hiring a physio. The launch was an instant success with 100k downloads in the 
+                first month.”
+              </blockquote>
+
+              <!-- Testimonial Profile -->
+              <figcaption class="testimonial__author">
+                <h4 class="heading heading--4 text-rupture-blue">Arthur Clarke</h4>
+                <small class="testimonial__author-position">Co-founder of MyPhysio</small>
+
+                <img src="./images/avatar-kady.jpg" alt="A Profile Image of Kady Baker" class="testimonial__img">
+              </figcaption>
+
+            </figure>
+
+          </li> <!-- // Testimonial Item - 03 -->
+
+        </ul> <!-- // Testimonials List -->
+
+      </div> <!-- // Wrapper -->
+
+      <!-- Shapes -->
+      <div class="shape shape--home-4"></div>
+      <div class="shape shape--home-5"></div>
+
+    </section> <!-- // Section - Testimonials -->
+
+    <!-- Section - CTA -->
+    <section class="section cta">
+
+      <!-- Wrapper -->
+      <div class="wrapper">
+
+        <header class="section__header">
+          <h2 class="heading heading--2 text-sacramento-green">
+            Ready to get started?
+          </h2>
+        </header>
+
+        <button class="btn btn--primary-dark">contact us</button>
+
+      </div> <!-- // Wrapper -->
+
+      <!-- Shapes -->
+      <div class="shape shape--home-6"></div>
+
+    </section> <!-- // Section - CTA -->
+
+  </main> <!-- // Main -->
+
+  <!-- Footer -->
+  <footer class="footer">
+
+    <!-- Wrapper -->
+    <div class="wrapper">
+
+      <!-- Navigation -->
+      <nav class="nav nav--footer">
+
+        <!-- Logo -->
+        <a href="/" class="nav__logo"><img src="./images/logo.svg" alt="MyTeam Logo"></a>
+
+        <!-- Navigation Menu -->
+        <ul class="nav__menu">
+          <li class="nav__item"><a href="#" class="nav__link">home</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">about</a></li>
+        </ul>
+
+      </nav> <!-- // Navigation -->
+
+      <!-- Address Info -->
+      <address class="contact-info">
+        <p class="paragraph">
+          987  Hillcrest Lane <br>
+          Irvine, CA <br>
+          California 92714 <br>
+          Call Us : <a href="tel:9498337432">949-833-7432</a>
+        </p>
+      </address> <!-- // Address Info -->
+
+      <!-- Social -->
+      <ul class="social">
+        <li class="social__item"><img src="./images/icon-facebook.svg" alt="Facebook Icon" class="social__icon"></li>
+        <li class="social__item"><img src="./images/icon-pinterest.svg" alt="Pinterest Icon" class="social__icon"></li>
+        <li class="social__item"><img src="./images/icon-twitter.svg" alt="Twitter Icon" class="social__icon"></li>
+      </ul> <!-- // Social -->
+
+      <p class="copyright">
+        Copyright 2020. All Rights Reserved
+      </p>
+
+    </div> <!-- // Wrapper -->
+
+  </footer> <!-- // Footer -->
+
 </body>
 </html>
