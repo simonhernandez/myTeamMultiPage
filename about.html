@@ -7,68 +7,408 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | myteam website challenge - About</title>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./app/css/main.css">
+
 </head>
 <body>
 
-  home
-  about
+  <!-- Header -->
+  <header class="header"> 
 
-  contact us
+    <!-- Wrapper -->
+    <div class="wrapper">
 
+      <!-- Navigation -->
+      <nav class="nav--header">
 
+        <!-- Logo -->
+        <a href="/" class="nav__logo"><img src="./images/logo.svg" alt="MyTeam Logo"></a>
 
-  About
+        <!-- Navigation Menu -->
+        <ul class="nav__menu" id="menu">
+          <li class="nav__item"><a href="/index.html" class="nav__link">home</a></li>
+          <li class="nav__item"><a href="/about.html" class="nav__link">about</a></li>
+          <a href="/contact.html" class="btn btn--primary-light hide-for-desktop">contact us</a>
+        </ul>
 
-  We help companies build dynamic teams made up of top global talent. 
-  Using our network of passionate professionals we drive innovation 
-  and deliver incredible outcomes. Talented, diverse teams shape the 
-  best products and experiences. We’ll bring those teams to you.
+        <!-- Navigation Toggle Button -->
+        <button class="nav__toggle hide-for-desktop"></button>
 
+      </nav>
 
-
-  Meet the directors
-
-  “It always amazes me how much talent there is in every corner of the globe.”
-  Nikita Marks
-  Founder & CEO
-
-  “Distributed teams required unique processes. You need to approach work in a new way.”
-  Cristian Duncan
-  Co-founder & COO
-
-  “Technology is at the forefront of enabling distributed teams. That's where we come in.”
-  Cruz Hamer
-  Co-founder & CTO
-
-  “Hiring similar people from similar backgrounds is a surefire way to stunt innovation.”
-  Drake Heaton
-  Business Development Lead
-
-  “Unique perspectives shape unique products, which is what you need to survive these days.”
-  Griffin Wise
-  Lead Marketing
-
-  “Empowered teams create truly amazing products. Set the north star and let them follow it.”
-  Aden Allan
-  Head of Talent
+      <!-- CTA Button -->
+      <a href="/contact.html" class="btn btn--primary-light hide-for-mobile">contact us</a>
 
 
 
-  Ready to get started?
+    </div> <!-- // Wrapper -->
 
-  contact us
+  </header> <!-- // Header -->
 
+  <!-- Main -->
+  <main class="main main--about">
 
+    <!-- Section - About -->
+    <section class="section about">
 
-  home
-  about
+      <!-- Wrapper -->
+      <div class="wrapper">
 
-  987  Hillcrest Lane
-  Irvine, CA
-  California 92714
-  Call Us : 949-833-7432
+        <!-- Section Header -->
+        <header class="about__header">
+          <h2 class="heading heading--2">About</h2>
+        </header>
 
-  Copyright 2020. All Rights Reserved
-  
+        <p class="paragraph paragraph--line-on-top">
+          We help companies build dynamic teams made up of top global talent. 
+          Using our network of passionate professionals we drive innovation 
+          and deliver incredible outcomes. Talented, diverse teams shape the 
+          best products and experiences. We’ll bring those teams to you.
+        </p>
+
+      </div> <!-- // Wrapper -->
+
+      <!-- Shapes -->
+      <div class="shape shape--about-1"></div>
+
+    </section> <!-- // Section - About -->
+
+    <!-- Section - Directors -->
+    <section class="directors">
+
+      <!-- Wrapper -->
+      <div class="wrapper">
+
+        <!-- Section Header -->
+        <header class="directors__header">
+          <h2 class="heading heading--2">Meet the directors</h2>
+        </header>
+
+        <!-- Directors List -->
+        <ul class="directors__list">
+
+          <!-- Directors Item - 01 -->
+          <li class="directors__item">
+
+            <!-- Profile Card -->
+            <div class="profile">
+
+              <!-- Profile Visible Container -->
+              <div class="profile__front">
+                <img src="./images/avatar-nikita.jpg" alt="A Profile image of Nikita Marks" class="profile__img">
+                <h4 class="heading heading--4">Nikita Marks</h4>
+                <em class="profile__role">Founder & CEO</em>
+              </div>
+
+              <!-- Profile Hidden Container -->
+              <div class="profile__hidden-container">
+
+                <!-- Profile Quote -->
+                <blockquote class="profile__quote">
+                  “It always amazes me how much talent there is in every corner of the globe.”
+                </blockquote>
+
+                <!-- Social Icons -->
+                <ul class="social">
+                  <li class="social__item"><img src="./images/icon-twitter.svg" alt="Twitter Icon" class="social__icon"></li>
+                  <li class="social__item"><img src="./images/icon-linkedin.svg" alt="Linkedin Icon" class="social__icon"></li>
+                </ul>
+
+              </div> <!-- // Profile Hidden Container -->
+
+              <!-- Profile Toggle Button -->
+              <button class="profile__toggle"></button>
+
+            </div> <!-- // Profile -->
+
+          </li> <!-- // Directors Item - 01 -->
+
+          <!-- Directors Item - 02 -->
+          <li class="directors__item">
+
+            <!-- Profile Card -->
+            <div class="profile">
+
+              <!-- Profile Visible Container -->
+              <div class="profile__front">
+                <img src="./images/avatar-christian.jpg" alt="A Profile image of Cristian Duncan" class="profile__img">
+                <h4 class="heading heading--4">Cristian Duncan</h4>
+                <em class="profile__role">Co-founder & COO</em>
+              </div>
+
+              <!-- Profile Hidden Container -->
+              <div class="profile__hidden-container">
+
+                <!-- Profile Quote -->
+                <blockquote class="profile__quote">
+                  “Distributed teams required unique processes. You need to approach work in a new way.”
+                </blockquote>
+
+                <!-- Social Icons -->
+                <ul class="social">
+                  <li class="social__item"><img src="./images/icon-twitter.svg" alt="Twitter Icon" class="social__icon"></li>
+                  <li class="social__item"><img src="./images/icon-linkedin.svg" alt="Linkedin Icon" class="social__icon"></li>
+                </ul>
+
+              </div> <!-- // Profile Hidden Container -->
+
+              <!-- Profile Toggle Button -->
+              <button class="profile__toggle"></button>
+
+            </div> <!-- // Profile -->
+
+          </li> <!-- // Directors Item - 02 -->
+
+          <!-- Directors Item - 03 -->
+          <li class="directors__item">
+
+            <!-- Profile Card -->
+            <div class="profile">
+
+              <!-- Profile Visible Container -->
+              <div class="profile__front">
+                <img src="./images/avatar-cruz.jpg" alt="A Profile image of Cruz Hamer" class="profile__img">
+                <h4 class="heading heading--4">Cruz Hamer</h4>
+                <em class="profile__role">Co-founder & CTO</em>
+              </div>
+
+              <!-- Profile Hidden Container -->
+              <div class="profile__hidden-container">
+
+                <!-- Profile Quote -->
+                <blockquote class="profile__quote">
+                  “Technology is at the forefront of enabling distributed teams. That's where we come in.”
+                </blockquote>
+
+                <!-- Social Icons -->
+                <ul class="social">
+                  <li class="social__item"><img src="./images/icon-twitter.svg" alt="Twitter Icon" class="social__icon"></li>
+                  <li class="social__item"><img src="./images/icon-linkedin.svg" alt="Linkedin Icon" class="social__icon"></li>
+                </ul>
+
+              </div> <!-- // Profile Hidden Container -->
+
+              <!-- Profile Toggle Button -->
+              <button class="profile__toggle"></button>
+
+            </div> <!-- // Profile -->
+
+          </li> <!-- // Directors Item - 03 -->
+
+          <!-- Directors Item - 04 -->
+          <li class="directors__item">
+
+            <!-- Profile Card -->
+            <div class="profile">
+
+              <!-- Profile Visible Container -->
+              <div class="profile__front">
+                <img src="./images/avatar-drake.jpg" alt="A Profile image of Drake Heaton" class="profile__img">
+                <h4 class="heading heading--4">Drake Heaton</h4>
+                <em class="profile__role">Business Development Lead</em>
+              </div>
+
+              <!-- Profile Hidden Container -->
+              <div class="profile__hidden-container">
+
+                <!-- Profile Quote -->
+                <blockquote class="profile__quote">
+                  “Hiring similar people from similar backgrounds is a surefire way to stunt innovation.”
+                </blockquote>
+
+                <!-- Social Icons -->
+                <ul class="social">
+                  <li class="social__item"><img src="./images/icon-twitter.svg" alt="Twitter Icon" class="social__icon"></li>
+                  <li class="social__item"><img src="./images/icon-linkedin.svg" alt="Linkedin Icon" class="social__icon"></li>
+                </ul>
+
+              </div> <!-- // Profile Hidden Container -->
+
+              <!-- Profile Toggle Button -->
+              <button class="profile__toggle"></button>
+
+            </div> <!-- // Profile -->
+
+          </li> <!-- // Directors Item - 04 -->
+
+          <!-- Directors Item - 05 -->
+          <li class="directors__item">
+
+            <!-- Profile Card -->
+            <div class="profile">
+
+              <!-- Profile Visible Container -->
+              <div class="profile__front">
+                <img src="./images/avatar-griffin.jpg" alt="A Profile image of Griffin Wise" class="profile__img">
+                <h4 class="heading heading--4">Griffin Wise</h4>
+                <em class="profile__role">Lead Marketing</em>
+              </div>
+
+              <!-- Profile Hidden Container -->
+              <div class="profile__hidden-container">
+
+                <!-- Profile Quote -->
+                <blockquote class="profile__quote">
+                  “Unique perspectives shape unique products, which is what you need to survive these days.”
+                </blockquote>
+
+                <!-- Social Icons -->
+                <ul class="social">
+                  <li class="social__item"><img src="./images/icon-twitter.svg" alt="Twitter Icon" class="social__icon"></li>
+                  <li class="social__item"><img src="./images/icon-linkedin.svg" alt="Linkedin Icon" class="social__icon"></li>
+                </ul>
+
+              </div> <!-- // Profile Hidden Container -->
+
+              <!-- Profile Toggle Button -->
+              <button class="profile__toggle"></button>
+
+            </div> <!-- // Profile -->
+
+          </li> <!-- // Directors Item - 05 -->
+
+          <!-- Directors Item - 06 -->
+          <li class="directors__item">
+
+            <!-- Profile Card -->
+            <div class="profile">
+
+              <!-- Profile Visible Container -->
+              <div class="profile__front">
+                <img src="./images/avatar-aden.jpg" alt="A Profile image of Aden Allan" class="profile__img">
+                <h4 class="heading heading--4">Aden Allan</h4>
+                <em class="profile__role">Head of Talent</em>
+              </div>
+
+              <!-- Profile Hidden Container -->
+              <div class="profile__hidden-container">
+
+                <!-- Profile Quote -->
+                <blockquote class="profile__quote">
+                  “Empowered teams create truly amazing products. Set the north star and let them follow it.”
+                </blockquote>
+
+                <!-- Social Icons -->
+                <ul class="social">
+                  <li class="social__item"><img src="./images/icon-twitter.svg" alt="Twitter Icon" class="social__icon"></li>
+                  <li class="social__item"><img src="./images/icon-linkedin.svg" alt="Linkedin Icon" class="social__icon"></li>
+                </ul>
+
+              </div> <!-- // Profile Hidden Container -->
+
+              <!-- Profile Toggle Button -->
+              <button class="profile__toggle"></button>
+
+            </div> <!-- // Profile -->
+
+          </li> <!-- // Directors Item - 06 -->
+
+        </ul> <!-- // Directors List -->
+
+      </div> <!-- // Wrapper -->
+
+      <!-- Shapes -->
+      <div class="shape shape--about-2"></div>
+      <div class="shape shape--about-3"></div>
+
+    </section> <!-- // Section - Directors -->
+
+    <!-- Section - Clients -->
+    <section class="section clients">
+
+      <!-- Wrapper -->
+      <div class="wrapper">
+
+        <!-- Section Header -->
+        <header class="clients__header">
+          <h2 class="heading heading--2">Some of our clients</h2>
+        </header>
+
+        <!-- Clients List -->
+        <ul class="clients__list">
+          <li class="clients__item"><img src="./images/logo-the-verge.png" alt="The Verge Logo" class="clients__img"></li>
+          <li class="clients__item"><img src="./images/logo-jakarta-post.png" alt="Jakarta Post Logo" class="clients__img"></li>
+          <li class="clients__item"><img src="./images/logo-the-guardian.png" alt="The Guardian Logo" class="clients__img"></li>
+          <li class="clients__item"><img src="./images/logo-tech-radar.png" alt="Tech Radar Logo" class="clients__img"></li>
+          <li class="clients__item"><img src="./images/logo-gadgets-now.png" alt="Gadgets Now Logo" class="clients__img"></li>
+        </ul>
+
+      </div> <!-- // Wrapper -->
+
+      <!-- Shapes -->
+      <div class="shape shape--about-4"></div>
+
+    </section> <!-- // Section - Clients -->
+
+    <!-- Section - CTA -->
+    <section class="section cta">
+
+      <!-- Wrapper -->
+      <div class="wrapper">
+
+        <header class="cta__header">
+          <h2 class="heading heading--2 text-sacramento-green">
+            Ready to get started?
+          </h2>
+        </header>
+
+        <button class="btn btn--primary-dark">contact us</button>
+
+      </div> <!-- // Wrapper -->
+
+      <!-- Shapes -->
+      <div class="shape shape--about-5"></div>
+
+    </section> <!-- // Section - CTA -->
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+
+    <!-- Wrapper -->
+    <div class="wrapper">
+
+      <!-- Navigation -->
+      <nav class="nav nav--footer">
+
+        <!-- Logo -->
+        <a href="/" class="nav__logo"><img src="./images/logo.svg" alt="MyTeam Logo"></a>
+
+        <!-- Navigation Menu -->
+        <ul class="nav__menu">
+          <li class="nav__item"><a href="#" class="nav__link">home</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">about</a></li>
+        </ul>
+
+      </nav> <!-- // Navigation -->
+
+      <!-- Address Info -->
+      <address class="contact-info">
+        <p class="paragraph">
+          987  Hillcrest Lane <br>
+          Irvine, CA <br>
+          California 92714 <br>
+          Call Us : <a href="tel:9498337432">949-833-7432</a>
+        </p>
+      </address> <!-- // Address Info -->
+
+      <!-- Social -->
+      <ul class="social">
+        <li class="social__item"><img src="./images/icon-facebook.svg" alt="Facebook Icon" class="social__icon"></li>
+        <li class="social__item"><img src="./images/icon-pinterest.svg" alt="Pinterest Icon" class="social__icon"></li>
+        <li class="social__item"><img src="./images/icon-twitter.svg" alt="Twitter Icon" class="social__icon"></li>
+      </ul> <!-- // Social -->
+
+      <p class="copyright">
+        Copyright 2020. All Rights Reserved
+      </p>
+
+    </div> <!-- // Wrapper -->
+
+  </footer> <!-- // Footer -->
+
 </body>
 </html>
