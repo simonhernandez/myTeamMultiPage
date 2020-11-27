@@ -1,0 +1,59 @@
+/*
+    ------------------------
+    ------- Profile --------
+    ------------------------
+*/
+
+.profile{
+
+    // Mobile Styles
+
+    position: relative;
+    text-align: center;
+    background-color: var(--color-profile-bg-light);
+    padding: var(--space-lg) var(--space-md) var(--space-3xl);
+
+    &__front{
+
+    }
+
+    &__img{
+        margin: 0 auto var(--space-sm);
+    }
+
+    &__toggle{
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        background-color: var(--color-light-coral);
+        position: relative;
+
+        &::before{
+            content: '';
+            width: 16px;
+            height: 16px;
+            background-image: url(../../../images/icon-cross.svg);
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+        }
+    }
+
+    &__hidden-container{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+
+        .heading{
+            margin-bottom: var(--space-xs);
+        }
+    }
+
+    &__quote{
+        margin-bottom: var(--space-md);
+    }
+
+}
