@@ -1,0 +1,62 @@
+/*
+    ------------------------
+    ------- Shape ----------
+    ------------------------
+*/
+
+.shape{
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    &--home{
+        &-1{
+            background-image: url(../../../images/bg-pattern-home-1.svg);
+        }
+        &-2{
+            background-image: url(../../../images/bg-pattern-home-2.svg);
+            
+        }
+        &-3{
+            background-image: url(../../../images/bg-pattern-home-3.svg);
+            
+        }
+        &-4{
+            background-image: url(../../../images/bg-pattern-home-4-about-3.svg);
+            
+        }
+        &-5{
+            background-image: url(../../../images/bg-pattern-home-5.svg);
+            
+        }
+        &-6{
+            background-image: url(../../../images/bg-pattern-home-6-about-5.svg);
+        }
+    }
+    
+    &--about{
+        &-1{
+            background-image: url(../../../images/bg-pattern-about-1-mobile-nav-1.svg);
+        }
+        &-2{
+            background-image: url(../../../images/bg-pattern-about-2-contact-1.svg);
+        }
+        &-3{
+            background-image: url(../../../images/bg-pattern-home-4-about-3.svg);
+        }
+        &-4{
+            background-image: url(../../../images/bg-pattern-about-4.svg);
+        }
+        &-5{
+            background-image: url(../../../images/bg-pattern-home-6-about-5.svg);
+        }
+    }
+    
+    &--contact{
+        &-1{
+            background-image: url(../../../images/bg-pattern-about-2-contact-1.svg);
+        }
+        &-2{
+            background-image: url(../../../images/bg-pattern-contact-2.svg);
+        }
+    }
+}
