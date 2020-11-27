@@ -1,0 +1,29 @@
+/*
+    ------------------------
+    -------- Form ----------
+    ------------------------
+*/
+
+.form{
+    
+    > *:not(:last-child){
+        margin-bottom: 1.333rem;
+    }
+
+    input,
+    textarea{
+        padding: 0 .77778rem;
+        border-bottom: .05556rem solid var(--color-input-border-normal);
+        color: var(--color-input-text-normal);
+        
+        &:active{
+            border-color: var(--color-input-border-active);
+            color: var(--color-input-text-active);
+        }
+        
+        &:invalid{
+            border-color: var(--color-input-border-error);
+            color: var(--color-input-text-error);
+        }
+    }
+}
