@@ -543,10 +543,6 @@ small {
     ------- Feature --------
     ------------------------
 */
-.feature {
-  text-align: center;
-}
-
 .feature__icon {
   margin: 0 auto var(--space-sm);
 }
