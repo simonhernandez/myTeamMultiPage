@@ -687,6 +687,11 @@ small {
     ------- Header --------
     ------------------------
 */
+.header {
+  background-color: var(--color-bg-green-light);
+  padding: var(--space-2xl) 0;
+}
+
 .header .nav {
   position: relative;
   display: -webkit-box;
@@ -711,12 +716,18 @@ small {
 @media screen and (max-width: 639px) {
   .header .nav__menu {
     background-color: var(--color-police-blue);
-    position: absolute;
-    right: 0;
+    position: fixed;
+    right: 0px;
     top: 0;
     width: 80%;
     height: 100%;
-    padding: var(--space-3xl) var(--space-5xl);
+    padding: var(--space-3xl) var(--space-2xl);
+  }
+  .header .nav__menu .nav__toggle {
+    width: 18px;
+    height: 17px;
+    background-image: url(../../../images/icon-close.svg);
+    margin: 0 0 var(--space-xl) auto;
   }
   .header .nav__menu .btn {
     margin-top: var(--space-lg);
@@ -727,9 +738,9 @@ small {
   margin-bottom: var(--space-md);
 }
 
-@media screen and (max-width: 639px) {
-  .header .nav__toggle {
-    margin: 0 0 var(--space-xl) auto;
-  }
+.header .nav__toggle {
+  background-image: url(../../../images/icon-hamburger.svg);
+  width: 20px;
+  height: 17px;
 }
 /*# sourceMappingURL=main.css.map */
