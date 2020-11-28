@@ -1,0 +1,67 @@
+/*
+    ------------------------
+    ------ Directors -------
+    ------------------------
+*/
+
+.directors{
+
+    background-color: var(--color-bg-green-dark);
+
+    // Mobile Styles
+
+    padding: 88px 0;
+    text-align: center;
+
+    &__header{
+        margin-bottom: var(--space-2xl);
+    }
+
+    &__list{
+        >*:not(:last-child){
+            margin-bottom: var(--space-3xl);
+        }
+    }
+
+    // Tablet Styles
+
+    @include breakpoint-up(medium){
+
+        padding: 100px 0;
+
+        &__header{
+            margin-bottom: var(--space-2xl);
+        }
+
+        &__list{
+
+            >*:not(:last-child){
+                margin-bottom: initial;
+            }
+
+            display: grid;
+            grid-template-columns: repeat(2, 281px);
+            column-gap: 11px;
+            row-gap: 76px;
+            justify-content: center;
+        }
+    }
+
+    // Desktop Styles
+
+    @include breakpoint-up(large){
+
+        padding: var(--space-8xl) 0;
+
+        &__header{
+            margin-bottom: var(--space-4xl);
+        }
+        
+        &__list{
+            grid-template-columns: repeat(3, minmax(auto, 350px));
+            column-gap: 30px;
+            row-gap: var(--space-2xl);
+        }
+    }
+
+}
