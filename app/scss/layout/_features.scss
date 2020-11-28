@@ -1,0 +1,43 @@
+/*
+    ------------------------
+    ------- Features -------
+    ------------------------
+*/
+
+.features{
+
+    background-color: var(--color-bg-green-very-dark);
+
+    // Mobile Styles
+
+    padding: var(--space-4xl) 0;
+
+    &__header{
+        padding-top: var(--space-lg);
+        margin-bottom: var(--space-3xl);
+    }
+
+    &__list{
+        >*:not(:last-child){
+            margin-bottom: var(--space-2xl);
+        }
+    }
+
+    // Tablet Styles
+
+    @include breakpoint-up(medium){
+        padding: 100px 0;
+    }
+
+    // Desktop Styles
+
+    @include breakpoint-up(large){
+        @include flex(sb, c, row);
+
+        &__header{
+            padding-top: 54px;
+            max-width: 415px;
+            margin-right: 157px;
+        }
+    }
+}
