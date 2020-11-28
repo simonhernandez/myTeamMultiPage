@@ -593,7 +593,8 @@ small {
   text-align: center;
   background-color: var(--color-profile-bg-light);
   padding: var(--space-lg) var(--space-md) var(--space-3xl);
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: visible;
 }
 
 .profile__img {
@@ -634,13 +635,20 @@ small {
   position: absolute;
   width: 100%;
   height: 100%;
-  top: 100%;
-  left: 0;
-  right: 0;
+  top: 0;
+  left: 100%;
+  bottom: 0;
+  padding: var(--space-lg) var(--space-md) var(--space-3xl);
 }
 
 .profile__hidden-container .heading {
   margin-bottom: var(--space-xs);
+}
+
+.profile__hidden-container .social {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .profile__quote {
