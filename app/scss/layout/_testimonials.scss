@@ -16,6 +16,39 @@
         margin-bottom: var(--space-2xl);
     }
 
+    &__list{
+        >*:not(:last-child){
+            margin-bottom: var(--space-2xl);
+        }
+    }
+
     // Tablet Styles
+
+    @include breakpoint-up(medium){
+        padding: 100px 0;
+    }
+
     // Desktop Styles
+
+    @include breakpoint-up(large){
+        padding: var(--space-8xl);
+
+        &__header{
+            margin-bottom: var(--space-3xl);
+        }
+
+        &__list{
+
+            >*:not(:last-child){
+                margin-bottom: initial;
+            }
+
+            @include flex(sb, c, row);
+        }
+
+        &__item{
+            max-width: 350px;
+        }
+    }
+
 }
