@@ -776,6 +776,7 @@ small {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    padding: var(--space-8xl) 0;
   }
   .features__header {
     padding-top: 54px;

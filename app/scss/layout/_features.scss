@@ -33,6 +33,7 @@
 
     @include breakpoint-up(large){
         @include flex(sb, c, row);
+        padding: var(--space-8xl) 0;
 
         &__header{
             padding-top: 54px;
