@@ -695,6 +695,63 @@ small {
 
 /*
     ------------------------
+    --------- About --------
+    ------------------------
+*/
+.about {
+  background-color: var(--color-bg-green-light);
+  text-align: center;
+  padding: var(--space-lg) 0 108px;
+}
+
+.about__header {
+  margin-bottom: var(--space-base);
+}
+
+@media screen and (min-width: 640px) {
+  .about {
+    padding: var(--space-md) 0 112px;
+  }
+  .about__header {
+    margin-bottom: var(--space-md);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .about {
+    padding: 51px 0 120px;
+    text-align: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .about__header {
+    margin-bottom: initial;
+    margin-right: 177px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+  }
+  .about .paragraph {
+    padding-top: var(--space-xl);
+    max-width: 730px;
+  }
+}
+
+/*
+    ------------------------
     ------- Clients --------
     ------------------------
 */

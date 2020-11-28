@@ -1,0 +1,48 @@
+/*
+    ------------------------
+    --------- About --------
+    ------------------------
+*/
+
+.about{
+
+    background-color: var(--color-bg-green-light);
+
+    // Mobile Styles
+    text-align: center;
+    padding: var(--space-lg) 0 108px;
+    
+    &__header{
+        margin-bottom: var(--space-base);
+    }
+
+    // Tablet Styles
+
+    @include breakpoint-up(medium){
+        padding: var(--space-md) 0 112px;
+
+        &__header{
+            margin-bottom: var(--space-md);
+        }
+    }
+    
+    // Desktop Styles
+
+    @include breakpoint-up(large){
+        padding: 51px 0 120px;
+        text-align: left;
+        @include flex(sb, c, row);
+
+        &__header{
+            margin-bottom: initial;
+            margin-right: 177px;
+            flex-shrink: 0;
+            flex-grow: 1;
+        }
+
+        .paragraph{
+            padding-top: var(--space-xl);
+            max-width: 730px;
+        }
+    }
+}
