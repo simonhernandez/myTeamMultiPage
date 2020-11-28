@@ -32,13 +32,17 @@
     // Desktop Styles
 
     @include breakpoint-up(large){
-        @include flex(sb, c, row);
+        @include flex(sb, fs, row);
         padding: var(--space-8xl) 0;
 
         &__header{
             padding-top: 54px;
             max-width: 415px;
             margin-right: 157px;
+        }
+
+        &__list{
+            padding-top: 54px;
         }
     }
 }

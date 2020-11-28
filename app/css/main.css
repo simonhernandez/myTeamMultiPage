@@ -769,9 +769,9 @@ small {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -782,6 +782,9 @@ small {
     padding-top: 54px;
     max-width: 415px;
     margin-right: 157px;
+  }
+  .features__list {
+    padding-top: 54px;
   }
 }
 
