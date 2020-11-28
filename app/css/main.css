@@ -338,7 +338,7 @@ small {
   padding: .38889rem 1.6667rem;
   border-width: .1111rem;
   border-style: solid;
-  border-radius: 50%;
+  border-radius: var(--space-md);
 }
 
 .btn--primary-light {
