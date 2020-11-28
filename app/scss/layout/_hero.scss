@@ -1,0 +1,25 @@
+/*
+    ------------------------
+    --------- Hero ---------
+    ------------------------
+*/
+
+.hero{
+
+    background-color: var(--color-bg-green-light);
+
+    // Mobile Styles
+    text-align: center;
+    padding: var(--space-4xl) var(--space-md) 0;
+
+    &__text-container{
+        margin-bottom: var(--space-base);
+    }
+
+    &__header{
+        margin-bottom: var(--space-11xl);
+    }
+
+    // Tablet Styles
+    // Desktop Styles
+}

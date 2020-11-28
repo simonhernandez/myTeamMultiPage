@@ -956,6 +956,25 @@ small {
 
 /*
     ------------------------
+    --------- Hero ---------
+    ------------------------
+*/
+.hero {
+  background-color: var(--color-bg-green-light);
+  text-align: center;
+  padding: var(--space-4xl) var(--space-md) 0;
+}
+
+.hero__text-container {
+  margin-bottom: var(--space-base);
+}
+
+.hero__header {
+  margin-bottom: var(--space-11xl);
+}
+
+/*
+    ------------------------
     ------- Wrapper --------
     ------------------------
 */
