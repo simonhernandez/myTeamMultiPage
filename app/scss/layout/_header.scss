@@ -1,0 +1,51 @@
+/*
+    ------------------------
+    ------- Header --------
+    ------------------------
+*/
+
+.header{
+
+    // Mobile Styles
+
+    .nav{
+        position: relative;
+
+        @include flex(sb, c, row);
+
+        &__logo{
+            max-width: 128px;
+        }
+
+        &__menu{
+            @include breakpoint-down(small){
+                background-color: var(--color-police-blue);
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 80%;
+                height: 100%;
+                padding: var(--space-3xl) var(--space-5xl);
+
+                .btn{
+                    margin-top: var(--space-lg);
+                }
+            }
+        }
+
+        &__item{
+            &:not(:last-of-type){
+                margin-bottom: var(--space-md);
+            }
+        }
+
+        &__toggle{
+            @include breakpoint-down(small){
+                margin: 0 0 var(--space-xl) auto;
+            }
+        }
+    }
+
+    // Tablet Styles
+    // Desktop Styles
+}
