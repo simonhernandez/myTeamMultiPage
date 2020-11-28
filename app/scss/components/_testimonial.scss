@@ -11,6 +11,7 @@
 
     &__quote{
         margin-bottom: var(--space-sm);
+        position: relative;
 
         &::before{
             content: '';

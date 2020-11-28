@@ -635,6 +635,7 @@ small {
 
 .testimonial__quote {
   margin-bottom: var(--space-sm);
+  position: relative;
 }
 
 .testimonial__quote::before {
