@@ -16,6 +16,7 @@
         @include flex(sb, c, row);
 
         &__logo{
+            display: block;
             max-width: 128px;
         }
 
@@ -57,5 +58,44 @@
     }
 
     // Tablet Styles
+
+    @include breakpoint-up(medium){
+
+        @include flex(sb, c, row);
+        padding: var(--space-4xl) 0;
+
+        .nav{
+            @include flex(fs, c, row);
+
+            &__logo{
+                margin-right: var(--space-2xl);
+            }
+
+            &__menu{
+                @include flex(fs, c, row);
+            }
+
+            &__item{
+                &:not(:last-of-type){
+                    margin-bottom: initial;
+                    margin-right: var(--space-xl);
+                }
+            }
+
+        }
+    }
+
     // Desktop Styles
+
+    @include breakpoint-up(large){
+
+        padding: 73px 0;
+
+        .nav{
+
+            &__logo{
+                margin-right: var(--space-5xl);
+            }
+        }
+    }
 }
