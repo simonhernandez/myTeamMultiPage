@@ -10,6 +10,9 @@
     border-width: .1111rem;
     border-style: solid;
     border-radius: var(--space-md);
+    font-weight: var(--fw-semi-bold);
+    font-size: var(--fs-normal);
+    line-height: var(--lh-body1);
 
     &--primary-light{
         background-color: var(--color-btn-primary-light-bg);
