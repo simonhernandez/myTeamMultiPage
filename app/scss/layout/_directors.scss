@@ -23,6 +23,35 @@
         }
     }
 
+    &__item{
+        position: relative;
+    }
+
+    &__toggle{
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        background-color: var(--color-profile-btn-bg-open);
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: calc((56px / 2) * -1);
+        margin: 0 auto;
+
+        &::before{
+            content: '';
+            width: 16px;
+            height: 16px;
+            background-image: url(../../../images/icon-cross.svg);
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+        }
+    }
+
     // Tablet Styles
 
     @include breakpoint-up(medium){
@@ -60,7 +89,6 @@
         &__list{
             grid-template-columns: repeat(3, minmax(auto, 350px));
             column-gap: 30px;
-            row-gap: var(--space-2xl);
         }
     }
 
