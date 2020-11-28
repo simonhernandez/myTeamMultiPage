@@ -700,6 +700,69 @@ small {
 
 /*
     ------------------------
+    ------- Clients --------
+    ------------------------
+*/
+.clients {
+  background-color: var(--color-bg-green-very-dark);
+  padding: 88px 0;
+  text-align: center;
+}
+
+.clients__header {
+  margin-bottom: var(--space-4xl);
+}
+
+.clients__list > *:not(:last-child) {
+  margin-bottom: var(--space-3xl);
+}
+
+.clients__item img {
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 640px) {
+  .clients {
+    padding: 100px 0;
+  }
+  .clients__header {
+    margin-bottom: var(--space-2xl);
+  }
+  .clients__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .clients__list > *:not(:last-child) {
+    margin-bottom: initial;
+    margin-right: var(--space-2xl);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .clients {
+    padding: var(--space-8xl) 0;
+  }
+  .clients__header {
+    margin-bottom: var(--space-4xl);
+  }
+  .clients__list > *:not(:last-child) {
+    margin-right: 54px;
+  }
+}
+
+/*
+    ------------------------
     --------- CTA ----------
     ------------------------
 */
