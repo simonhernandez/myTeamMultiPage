@@ -1,0 +1,48 @@
+/*
+    ------------------------
+    ------- Footer ---------
+    ------------------------
+*/
+
+.footer{
+
+    // Mobile Styles
+    background-color: var(--color-dark-green);
+    text-align: center;
+    padding: var(--space-4xl) 0;
+
+    .nav{
+        margin-bottom: var(--space-md);
+
+        &__logo{
+            display: block;
+            margin-bottom: var(--space-md);
+
+            img{
+                margin: 0 auto;
+            }
+        }
+
+        &__menu{
+            @include flex(c, c, row);
+        }
+
+        &__item{
+            &:not(:last-of-type){
+                margin-right: var(--space-md);
+            }
+        }
+
+    }
+
+    .contact-info{
+        margin-bottom: var(--space-xl);
+    }
+
+    .social{
+        margin-bottom: var(--space-sm);
+    }
+
+    // Tablet Styles
+    // Desktop Styles
+}
