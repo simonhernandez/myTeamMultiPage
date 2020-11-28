@@ -44,5 +44,90 @@
     }
 
     // Tablet Styles
+
+    @include breakpoint-up(medium){
+
+        text-align: initial;
+        padding: var(--space-3xl) 0;
+        display: grid;
+        grid-template-areas: "nav address"
+                             "social copy";
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        
+        .wrapper{
+            row-gap: var(--space-lg);
+        }
+
+        .nav{
+            margin-bottom: initial;
+            grid-area: nav;
+    
+            &__logo{
+                margin-bottom: var(--space-3xl);
+    
+                img{
+                    margin: initial;
+                }
+            }
+    
+            &__menu{
+                justify-content: flex-start;
+            }
+        }
+    
+        .contact-info{
+            margin-bottom: initial;
+            grid-area: address;
+            text-align: right;
+        }
+    
+        .social{
+            margin-bottom: initial;
+            grid-area: social;
+            justify-content: flex-start;
+        }
+
+        .copyright{
+            grid-area: copy;
+            text-align: right;
+        }
+    }
+
     // Desktop Styles
+
+    @include breakpoint-up(large){
+        padding: var(--space-2xl) 0;
+        display: grid;
+        grid-template-areas: "nav address social"
+                             "nav address copy";
+        grid-template-columns: repeat(2, auto) 1fr;
+        grid-template-rows: repeat(2, auto);
+        
+        .wrapper{
+            column-gap: var(--space-7xl);
+        }
+
+        .nav{
+            margin-bottom: initial;
+    
+            &__logo{
+                margin-bottom: var(--space-md);
+            }
+    
+            &__menu{
+            }
+        }
+    
+        .contact-info{
+            text-align: left;
+        }
+    
+        .social{
+            justify-content: flex-end;
+        }
+
+        .copyright{
+        }
+    }
 }

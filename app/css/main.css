@@ -866,6 +866,93 @@ small {
   margin-bottom: var(--space-sm);
 }
 
+@media screen and (min-width: 640px) {
+  .footer {
+    text-align: initial;
+    padding: var(--space-3xl) 0;
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "nav address" "social copy";
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-rows: (auto)[2];
+        grid-template-rows: repeat(2, auto);
+  }
+  .footer .wrapper {
+    row-gap: var(--space-lg);
+  }
+  .footer .nav {
+    margin-bottom: initial;
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: nav;
+  }
+  .footer .nav__logo {
+    margin-bottom: var(--space-3xl);
+  }
+  .footer .nav__logo img {
+    margin: initial;
+  }
+  .footer .nav__menu {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .footer .contact-info {
+    margin-bottom: initial;
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: address;
+    text-align: right;
+  }
+  .footer .social {
+    margin-bottom: initial;
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: social;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .footer .copyright {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+    grid-area: copy;
+    text-align: right;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    padding: var(--space-2xl) 0;
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "nav address social" "nav address copy";
+    -ms-grid-columns: (auto)[2] 1fr;
+        grid-template-columns: repeat(2, auto) 1fr;
+    -ms-grid-rows: (auto)[2];
+        grid-template-rows: repeat(2, auto);
+  }
+  .footer .wrapper {
+    -webkit-column-gap: var(--space-7xl);
+            column-gap: var(--space-7xl);
+  }
+  .footer .nav {
+    margin-bottom: initial;
+  }
+  .footer .nav__logo {
+    margin-bottom: var(--space-md);
+  }
+  .footer .contact-info {
+    text-align: left;
+  }
+  .footer .social {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+}
+
 /*
     ------------------------
     ------- Wrapper --------
