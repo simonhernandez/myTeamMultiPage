@@ -1117,6 +1117,21 @@ small {
 
 /*
     ------------------------
+    ----- Testimonials -----
+    ------------------------
+*/
+.testimonials {
+  background-color: var(--color-bg-green-dark);
+  padding: var(--space-8xl) 0;
+  text-align: center;
+}
+
+.testimonials__header {
+  margin-bottom: var(--space-2xl);
+}
+
+/*
+    ------------------------
     ------- Wrapper --------
     ------------------------
 */

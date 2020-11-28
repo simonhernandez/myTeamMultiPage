@@ -1,0 +1,21 @@
+/*
+    ------------------------
+    ----- Testimonials -----
+    ------------------------
+*/
+
+.testimonials{
+    background-color: var(--color-bg-green-dark);
+
+    // Mobile Styles
+
+    padding: var(--space-8xl) 0;
+    text-align: center;
+
+    &__header{
+        margin-bottom: var(--space-2xl);
+    }
+
+    // Tablet Styles
+    // Desktop Styles
+}
