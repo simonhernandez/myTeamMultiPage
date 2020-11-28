@@ -645,8 +645,10 @@ small {
 }
 
 .testimonial__quote {
+  padding-top: 36px;
   margin-bottom: var(--space-sm);
   position: relative;
+  z-index: var(--z-tooltip);
 }
 
 .testimonial__quote::before {
@@ -656,10 +658,11 @@ small {
   height: 56px;
   background-image: url(../../../images/icon-quotes.svg);
   position: absolute;
-  top: -50px;
+  top: 0;
   left: 0;
   right: 0;
   margin: 0 auto;
+  z-index: var(--z-back);
 }
 
 .testimonial__author > *:not(:last-child) {
