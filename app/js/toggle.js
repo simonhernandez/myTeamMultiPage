@@ -24,7 +24,7 @@ function toggleMenu(){
 }
 
 function showHiddenContainer(){
-    this.style.backgroundColor = "var(--color-rapture-blue)";
+    this.classList.toggle('bg-rapture-blue');
     this.classList.toggle('rotate-45deg');
     // hiddenContainer.classList.toggle('show-hidden-container');
 }
