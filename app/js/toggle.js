@@ -25,7 +25,8 @@ function toggleMenu(){
 function showHiddenContainer(){
     this.classList.toggle('bg-rapture-blue');
     this.classList.toggle('rotate-45deg');
-    this.previousSibling.firstChild.classList.toggle('show-hidden-container');
+    console.log(this.previousElementSibling.lastElementChild.className);
+    this.previousElementSibling.lastElementChild.classList.toggle('show-hidden-container');
 }
 
 /*
