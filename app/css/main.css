@@ -847,6 +847,9 @@ small {
     padding: var(--space-md) 0 112px;
     text-align: initial;
   }
+  .contact__header {
+    margin-bottom: var(--space-md);
+  }
   .contact__text-container {
     margin-bottom: var(--space-4xl);
   }
@@ -868,6 +871,9 @@ small {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+  }
+  .contact__header {
+    margin-bottom: var(--space-xl);
   }
   .contact__text-container {
     margin-bottom: initial;

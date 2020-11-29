@@ -30,6 +30,10 @@
         padding: var(--space-md) 0 112px;
         text-align: initial;
 
+        &__header{
+            margin-bottom: var(--space-md);
+        }
+
         &__text-container{
             margin-bottom: var(--space-4xl);
         }
@@ -40,6 +44,10 @@
     @include breakpoint-up(large){
         padding: 51px 0 120px;
         @include flex(sb, c, row);
+
+        &__header{
+            margin-bottom: var(--space-xl);
+        }
 
         &__text-container{
             margin-bottom: initial;
