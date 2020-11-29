@@ -1510,8 +1510,7 @@ small {
             flex-grow: 1;
   }
   .hero .paragraph {
-    -ms-flex-item-align: end;
-        align-self: flex-end;
+    padding-top: 79px;
   }
 }
 
