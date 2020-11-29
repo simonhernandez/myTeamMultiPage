@@ -30,6 +30,7 @@
                 height: 100%;
                 z-index: var(--z-fixed);
                 padding: var(--space-3xl) var(--space-md) 0 var(--space-2xl);
+                transition: all .35s ease-in-out;
 
                 .nav__toggle{
                     width: 18px;
