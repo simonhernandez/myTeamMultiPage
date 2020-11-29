@@ -116,21 +116,21 @@ address {
   --color-btn-primary-dark-text-hover: var(--color-white);
   --color-btn-primary-light-border-hover: var(--color-white);
   --color-btn-primary-dark-border-hover: var(--color-sacramento-green);
-  --color-btn-primary-light-bg-hover: transparent;
-  --color-btn-primary-dark-bg-hover: transparent;
-  --color-btn-primary-light-text-hover: var(--color-white-extreme-light);
-  --color-btn-primary-dark-text-hover: var(--color-white-extreme-light);
-  --color-btn-primary-light-border-hover: var(--color-white-extreme-light);
-  --color-btn-primary-dark-border-hover: var(--color-white-extreme-light);
+  --color-btn-primary-light-bg-disabled: transparent;
+  --color-btn-primary-dark-bg-disabled: transparent;
+  --color-btn-primary-light-text-disabled: var(--color-white-extreme-light);
+  --color-btn-primary-dark-text-disabled: var(--color-white-extreme-light);
+  --color-btn-primary-light-border-disabled: var(--color-white-extreme-light);
+  --color-btn-primary-dark-border-disabled: var(--color-white-extreme-light);
   --color-btn-secondary-light-bg: var(--color-white);
   --color-btn-secondary-light-text: var(--color-dark-green);
   --color-btn-secondary-light-border: var(--color-white);
   --color-btn-secondary-light-bg-hover: var(--color-rapture-blue);
   --color-btn-secondary-light-text-hover: var(--color-dark-green);
   --color-btn-secondary-light-border-hover: var(--color-rapture-blue);
-  --color-btn-secondary-light-bg-hover: var(--color-white-extreme-light);
-  --color-btn-secondary-light-text-hover: var(--color-dark-green);
-  --color-btn-secondary-light-border-hover: var(--color-white-extreme-light);
+  --color-btn-secondary-light-bg-disabled: var(--color-white-extreme-light);
+  --color-btn-secondary-light-text-disabled: var(--color-dark-green);
+  --color-btn-secondary-light-border-disabled: var(--color-white-extreme-light);
 }
 
 .text-white-light {
