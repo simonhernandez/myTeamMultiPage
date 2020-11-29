@@ -327,6 +327,10 @@ small {
   font-size: var(--fs-xxxl);
 }
 
+.text-body-1 {
+  font-size: var(--fs-body-1);
+}
+
 /*
     ------------------------
     ------ Variables -------
