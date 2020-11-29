@@ -1082,6 +1082,7 @@ small {
 .features__header {
   padding-top: var(--space-lg);
   margin-bottom: var(--space-3xl);
+  max-width: 240px;
 }
 
 .features__list > *:not(:last-child) {
