@@ -21,6 +21,10 @@
   }
 }
 
+.line-on-top {
+  position: relative;
+}
+
 .line-on-top::before {
   content: '';
   display: block;
@@ -31,11 +35,11 @@
   left: 0;
 }
 
-.line-on-top--coral::before {
+.line-on-top--green::before {
   background-color: #79C8C7;
 }
 
-.line-on-top--green::before {
+.line-on-top--coral::before {
   background-color: #F67E7E;
 }
 

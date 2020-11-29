@@ -21,6 +21,7 @@
 // Aesthetic
 
 .line-on-top{
+    position: relative;
     &::before{
         content: '';
         display: block;
@@ -31,13 +32,13 @@
         left: 0;
     }
 
-    &--coral{
+    &--green{
         &::before{
             background-color: #79C8C7;
         }
     }
 
-    &--green{
+    &--coral{
         &::before{
             background-color: #F67E7E;
         }
