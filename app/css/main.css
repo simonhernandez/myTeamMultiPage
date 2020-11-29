@@ -722,6 +722,10 @@ small {
   margin-bottom: var(--space-sm);
 }
 
+.testimonial__author-position {
+  display: block;
+}
+
 .testimonial__img {
   margin: 0 auto;
   width: 62px;
