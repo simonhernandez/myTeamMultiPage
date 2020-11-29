@@ -25,6 +25,10 @@
   right: 0 !important;
 }
 
+.show-hidden-container {
+  left: 0 !important;
+}
+
 .rotate-45deg::before {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
