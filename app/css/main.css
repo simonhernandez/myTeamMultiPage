@@ -25,6 +25,11 @@
   right: 0 !important;
 }
 
+.rotate-45deg::before {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
 .line-on-top {
   position: relative;
 }

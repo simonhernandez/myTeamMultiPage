@@ -22,6 +22,12 @@
     right: 0 !important;
 }
 
+.rotate-45deg{
+    &::before{
+        transform: rotate(45deg);
+    }
+}
+
 // Aesthetic
 
 .line-on-top{
