@@ -1127,6 +1127,10 @@ small {
   bottom: 0;
   left: 0;
   margin: auto;
+  -webkit-transition: -webkit-transform .2s ease-in-out;
+  transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
 }
 
 @media screen and (min-width: 640px) {
