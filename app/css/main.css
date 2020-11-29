@@ -1679,6 +1679,7 @@ small {
   .main--home .shape--home-2 {
     margin: initial;
     left: initial;
+    right: var(--space-9xl);
   }
   .main--home .shape--home-3 {
     top: initial;
