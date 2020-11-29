@@ -534,10 +534,22 @@ small {
 
 .shape--contact-1 {
   background-image: url(../../../images/bg-pattern-about-2-contact-1.svg);
+  background-position-x: -100px;
+  width: 200px;
+  height: 200px;
 }
 
 .shape--contact-2 {
   background-image: url(../../../images/bg-pattern-contact-2.svg);
+  background-position: 140px 100px;
+  width: 225px;
+  height: 200px;
+}
+
+@media screen and (min-width: 640px) {
+  .shape--contact-2 {
+    background-position-y: 0;
+  }
 }
 
 /*
@@ -1574,6 +1586,36 @@ small {
 .main--about .shape--about-5 {
   left: 0;
   bottom: 0;
+}
+
+/*
+    ------------------------
+    -------- Contact -------
+    ------------------------
+*/
+.main--contact .contact {
+  position: relative;
+}
+
+.main--contact .shape {
+  position: absolute;
+}
+
+.main--contact .shape--contact-1 {
+  display: none;
+}
+
+.main--contact .shape--contact-2 {
+  right: 0;
+  bottom: 0;
+}
+
+@media screen and (min-width: 640px) {
+  .main--contact .shape--contact-1 {
+    display: block;
+    top: 0;
+    left: 0;
+  }
 }
 
 /*

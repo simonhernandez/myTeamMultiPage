@@ -84,9 +84,19 @@
     &--contact{
         &-1{
             background-image: url(../../../images/bg-pattern-about-2-contact-1.svg);
+            background-position-x: -100px;
+            width: 200px;
+            height: 200px;
         }
         &-2{
             background-image: url(../../../images/bg-pattern-contact-2.svg);
+            background-position: 140px 100px;
+            width: 225px;
+            height: 200px;
+
+            @include breakpoint-up(medium){
+                background-position-y: 0;
+            }
         }
     }
 }
