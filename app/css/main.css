@@ -768,6 +768,8 @@ small {
   left: 100%;
   bottom: 0;
   padding: var(--space-lg) var(--space-md) var(--space-3xl);
+  -webkit-transition: all .35s ease-out;
+  transition: all .35s ease-out;
 }
 
 .profile__hidden-container .heading {

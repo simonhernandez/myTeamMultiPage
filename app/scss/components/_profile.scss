@@ -34,6 +34,7 @@
         left: 100%;
         bottom: 0;
         padding: var(--space-lg) var(--space-md) var(--space-3xl);
+        transition: all .35s ease-out;
 
         .heading{
             margin-bottom: var(--space-xs);
