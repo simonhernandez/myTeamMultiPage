@@ -118,6 +118,9 @@ address {
   --color-sacramento-green: #012F34;
   --color-dark-green: #002529;
   --color-text: var(--color-white);
+  --color-text-white-light: var(--color-white-light);
+  --color-text-white-very-light: var(--color-white-very-light);
+  --color-text-white-extreme-light: var(--color-white-extreme-light);
   --color-bg-green-light: var(--color-midnight-green);
   --color-bg-green-dark: var(--color-deep-jungle-green);
   --color-bg-green-very-dark: var(--color-sacramento-green);
@@ -162,11 +165,15 @@ address {
 }
 
 .text-white-light {
-  color: var(--color-white-light);
+  color: var(--color-text-white-light);
 }
 
 .text-white-very-light {
   color: var(--color-white-very-light);
+}
+
+.text-white-extreme-light {
+  color: var(--color-white-extreme-light);
 }
 
 .text-rapture-blue {

@@ -24,6 +24,9 @@
 
     // Text
     --color-text: var(--color-white);
+    --color-text-white-light: var(--color-white-light);
+    --color-text-white-very-light: var(--color-white-very-light);
+    --color-text-white-extreme-light: var(--color-white-extreme-light);
 
     // Backgrounds
     --color-bg-green-light: var(--color-midnight-green);
@@ -100,10 +103,13 @@
 }
 
 .text-white-light{
-    color: var(--color-white-light);
+    color: var(--color-text-white-light);
 }
 .text-white-very-light{
     color: var(--color-white-very-light);
+}
+.text-white-extreme-light{
+    color: var(--color-white-extreme-light);
 }
 .text-rapture-blue{
     color: var(--color-rapture-blue);
