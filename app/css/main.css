@@ -1252,7 +1252,8 @@ small {
     top: 0;
     width: 80%;
     height: 100%;
-    padding: var(--space-3xl) var(--space-2xl);
+    z-index: var(--z-fixed);
+    padding: var(--space-3xl) var(--space-md) 0 var(--space-2xl);
   }
   .header .nav__menu .nav__toggle {
     width: 18px;
