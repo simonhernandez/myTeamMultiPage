@@ -1689,10 +1689,6 @@ small {
     left: initial;
     right: var(--space-9xl);
   }
-  .main--home .shape--home-3 {
-    top: initial;
-    bottom: 0;
-  }
 }
 
 @media screen and (min-width: 1400px) {
@@ -1700,6 +1696,10 @@ small {
     display: block;
     top: 60px;
     left: -100px;
+  }
+  .main--home .shape--home-3 {
+    top: initial;
+    bottom: 0;
   }
 }
 /*# sourceMappingURL=main.css.map */

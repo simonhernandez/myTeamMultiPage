@@ -69,11 +69,6 @@
                     left: initial;
                     right: var(--space-9xl);
                 }
-
-                &--home-3{
-                    top: initial;
-                    bottom: 0;
-                }
             }
         }
 
@@ -84,6 +79,11 @@
                     display: block;
                     top: 60px;
                     left: -100px;
+                }
+
+                &--home-3{
+                    top: initial;
+                    bottom: 0;
                 }
             }
         }
