@@ -163,6 +163,7 @@ address {
   --color-btn-secondary-light-text-disabled: var(--color-dark-green);
   --color-btn-secondary-light-border-disabled: var(--color-white-extreme-light);
   --color-icon-hover: var(--color-light-coral);
+  --color-link-hover: var(--color-light-coral);
 }
 
 .text-white-light {
