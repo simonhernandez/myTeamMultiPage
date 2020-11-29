@@ -653,8 +653,8 @@ small {
   margin-right: 1rem;
 }
 
-.social__icon:hover {
-  color: var(--color-icon-hover);
+.social__item:hover svg path {
+  fill: var(--color-icon-hover);
 }
 
 @media screen and (min-width: 1024px) {

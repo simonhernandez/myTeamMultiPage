@@ -11,10 +11,14 @@
         margin-right: 1rem;
     }
     
-    &__icon{
+    &__item{
 
         &:hover{
-            color: var(--color-icon-hover);
+            svg{
+                path{
+                    fill: var(--color-icon-hover);
+                }
+            }
         }
     }
 
