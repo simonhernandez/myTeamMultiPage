@@ -815,6 +815,69 @@ small {
 
 /*
     ------------------------
+    ------- Contact --------
+    ------------------------
+*/
+.contact {
+  background-color: var(--color-bg-green-light);
+  text-align: center;
+  padding: var(--space-lg) 0 4.8889rem;
+}
+
+.contact__header {
+  margin-bottom: var(--space-sm);
+}
+
+.contact p.text-xl {
+  margin-bottom: var(--space-xl);
+}
+
+.contact__text-container {
+  margin-bottom: var(--space-3xl);
+}
+
+@media screen and (min-width: 640px) {
+  .contact {
+    padding: var(--space-md) 0 112px;
+    text-align: initial;
+  }
+  .contact__text-container {
+    margin-bottom: var(--space-4xl);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .contact {
+    padding: 51px 0 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .contact__text-container {
+    margin-bottom: initial;
+    margin-right: var(--space-7xl);
+  }
+  .contact .form--contact {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+  }
+}
+
+/*
+    ------------------------
     --------- CTA ----------
     ------------------------
 */

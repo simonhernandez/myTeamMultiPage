@@ -1,0 +1,57 @@
+/*
+    ------------------------
+    ------- Contact --------
+    ------------------------
+*/
+
+.contact{
+    background-color: var(--color-bg-green-light);
+
+    // Mobile Styles
+
+    text-align: center;
+    padding: var(--space-lg) 0 4.8889rem;
+
+    &__header{
+        margin-bottom: var(--space-sm);
+    }
+
+    p.text-xl{
+        margin-bottom: var(--space-xl);
+    }
+
+    &__text-container{
+        margin-bottom: var(--space-3xl);
+    }
+
+    // Tablet Styles
+
+    @include breakpoint-up(medium){
+        padding: var(--space-md) 0 112px;
+        text-align: initial;
+
+        &__text-container{
+            margin-bottom: var(--space-4xl);
+        }
+    }
+
+    // Desktop Styles
+
+    @include breakpoint-up(large){
+        padding: 51px 0 120px;
+        @include flex(sb, c, row);
+
+        &__text-container{
+            margin-bottom: initial;
+            margin-right: var(--space-7xl);
+        }
+
+        .form{
+            &--contact{
+                flex-grow: 1;
+                flex-shrink: 0;
+            }
+        }
+    }
+
+}
