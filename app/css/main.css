@@ -1274,6 +1274,11 @@ small {
   .header .nav__menu .btn {
     margin-top: var(--space-lg);
   }
+  .header .nav__menu .shape {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
 }
 
 .header .nav__item:not(:last-of-type) {
