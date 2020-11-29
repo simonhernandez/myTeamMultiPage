@@ -22,7 +22,7 @@
 }
 
 .show-mobile-menu {
-  right: 0;
+  right: 0 !important;
 }
 
 .line-on-top {
