@@ -871,7 +871,7 @@ small {
   }
   .about .paragraph {
     padding-top: var(--space-xl);
-    max-width: 730px;
+    max-width: 692px;
   }
 }
 
