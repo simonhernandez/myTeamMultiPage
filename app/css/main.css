@@ -827,7 +827,8 @@ small {
   margin-bottom: var(--space-3xl);
 }
 
-.clients__item img {
+.clients__item {
+  max-width: var(--space-9xl);
   margin: 0 auto;
 }
 

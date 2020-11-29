@@ -24,9 +24,8 @@
     }
 
     &__item{
-        img{
-            margin: 0 auto;
-        }
+        max-width: var(--space-9xl);
+        margin: 0 auto;
     }
 
     // Tablet Styles
