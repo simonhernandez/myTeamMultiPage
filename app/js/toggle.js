@@ -8,7 +8,6 @@ const navToggleOpen = document.getElementById('navToggle-open');
 const navToggleClose = document.getElementById('navToggle-close');
 const navMenu = document.getElementById('menu');
 const directorsToggleButtons = document.querySelectorAll('.directors__toggle');
-// const 
 
 const hamburgerIcon = "url(../../assets/icon/hamburger.svg)";
 const closeIcon = "url(../../assets/icon/close.svg)";
@@ -26,7 +25,7 @@ function toggleMenu(){
 function showHiddenContainer(){
     this.classList.toggle('bg-rapture-blue');
     this.classList.toggle('rotate-45deg');
-    // hiddenContainer.classList.toggle('show-hidden-container');
+    this.previousSibling.firstChild.classList.toggle('show-hidden-container');
 }
 
 /*
