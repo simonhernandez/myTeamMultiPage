@@ -48,6 +48,10 @@
             &:not(:last-of-type){
                 margin-bottom: var(--space-md);
             }
+
+            &:hover{
+                color: var(--color-link-hover);
+            }
         }
 
         &__toggle{

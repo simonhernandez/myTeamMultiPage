@@ -1259,6 +1259,10 @@ small {
   margin-bottom: var(--space-md);
 }
 
+.header .nav__item:hover {
+  color: var(--color-link-hover);
+}
+
 .header .nav__toggle {
   background-image: url(../../../images/icon-hamburger.svg);
   width: 20px;
@@ -1372,6 +1376,10 @@ small {
 
 .footer .nav__item:not(:last-of-type) {
   margin-right: var(--space-md);
+}
+
+.footer .nav__item:hover {
+  color: var(--color-link-hover);
 }
 
 .footer .contact-info {
