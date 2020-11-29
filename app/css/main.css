@@ -842,6 +842,10 @@ small {
   margin-bottom: var(--space-base);
 }
 
+.about .line-on-top::before {
+  display: none;
+}
+
 @media screen and (min-width: 640px) {
   .about {
     padding: var(--space-md) 0 112px;
@@ -881,6 +885,9 @@ small {
   .about .paragraph {
     padding-top: var(--space-xl);
     max-width: 692px;
+  }
+  .about .line-on-top::before {
+    display: block;
   }
 }
 
@@ -1492,6 +1499,10 @@ small {
   margin-bottom: var(--space-base);
 }
 
+.hero .line-on-top::before {
+  display: none;
+}
+
 @media screen and (min-width: 640px) {
   .hero {
     padding: var(--space-md) 0 256px;
@@ -1532,6 +1543,9 @@ small {
   }
   .hero .paragraph {
     padding-top: 79px;
+  }
+  .hero .line-on-top::before {
+    display: block;
   }
 }
 

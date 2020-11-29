@@ -16,6 +16,12 @@
         margin-bottom: var(--space-base);
     }
 
+    .line-on-top{
+        &::before{
+            display: none;
+        }
+    }
+
     // Tablet Styles
 
     @include breakpoint-up(medium){
@@ -43,6 +49,12 @@
         .paragraph{
             padding-top: var(--space-xl);
             max-width: 692px;
+        }
+
+        .line-on-top{
+            &::before{
+                display: block;
+            }
         }
     }
 }
