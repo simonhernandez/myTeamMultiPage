@@ -14,6 +14,8 @@
     padding: var(--space-lg) var(--space-md) var(--space-3xl);
     overflow-x: hidden;
     overflow-y: visible;
+    max-width: 350px;
+    margin: 0 auto;
 
     &__img{
         margin: 0 auto var(--space-sm);

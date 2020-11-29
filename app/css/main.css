@@ -651,6 +651,8 @@ small {
   padding: var(--space-lg) var(--space-md) var(--space-3xl);
   overflow-x: hidden;
   overflow-y: visible;
+  max-width: 350px;
+  margin: 0 auto;
 }
 
 .profile__img {
