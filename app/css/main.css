@@ -425,11 +425,12 @@ small {
 .form textarea {
   padding: 0 0.77778rem var(--space-sm);
   border-bottom: 0.05556rem solid var(--color-input-border-normal);
-  color: var(--color-input-text-normal);
+  color: var(--color-input-text-active);
+  font-weight: var(--fw-semi-bold);
 }
 
-.form input:active,
-.form textarea:active {
+.form input:focus,
+.form textarea:focus {
   border-color: var(--color-input-border-active);
   color: var(--color-input-text-active);
 }
@@ -438,6 +439,46 @@ small {
 .form textarea:invalid {
   border-color: var(--color-input-border-error);
   color: var(--color-input-text-error);
+}
+
+.form input::-webkit-input-placeholder,
+.form textarea::-webkit-input-placeholder {
+  color: var(--color-input-text-normal);
+  opacity: 1;
+  /* Firefox */
+}
+
+.form input:-ms-input-placeholder,
+.form textarea:-ms-input-placeholder {
+  color: var(--color-input-text-normal);
+  opacity: 1;
+  /* Firefox */
+}
+
+.form input::-ms-input-placeholder,
+.form textarea::-ms-input-placeholder {
+  color: var(--color-input-text-normal);
+  opacity: 1;
+  /* Firefox */
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+  color: var(--color-input-text-normal);
+  opacity: 1;
+  /* Firefox */
+}
+
+.form input:-ms-input-placeholder,
+.form textarea:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: var(--color-input-text-normal);
+}
+
+.form input::-ms-input-placeholder,
+.form textarea::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: var(--color-input-text-normal);
 }
 
 /*

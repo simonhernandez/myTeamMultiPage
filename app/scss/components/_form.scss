@@ -14,9 +14,10 @@
     textarea{
         padding: 0 .77778rem var(--space-sm);
         border-bottom: .05556rem solid var(--color-input-border-normal);
-        color: var(--color-input-text-normal);
+        color: var(--color-input-text-active);
+        font-weight: var(--fw-semi-bold);
         
-        &:active{
+        &:focus{
             border-color: var(--color-input-border-active);
             color: var(--color-input-text-active);
         }
@@ -24,6 +25,19 @@
         &:invalid{
             border-color: var(--color-input-border-error);
             color: var(--color-input-text-error);
+        }
+
+        &::placeholder {
+            color: var(--color-input-text-normal);
+            opacity: 1; /* Firefox */
+        }
+          
+        &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+            color: var(--color-input-text-normal);
+        }
+          
+        &::-ms-input-placeholder { /* Microsoft Edge */
+            color: var(--color-input-text-normal);
         }
     }
 }
