@@ -25,8 +25,8 @@
             }
         }
 
-        // Tablet Styles
-        @include breakpoint-up(medium){
+        // Desktop Styles
+        @include breakpoint-up(xlarge){
             .shape{
                 &--contact-1{
                     display: block;
@@ -35,7 +35,5 @@
                 }
             }
         }
-
-        // Desktop Styles
     }
 }
