@@ -11,9 +11,7 @@
         margin-right: 1rem;
     }
     
-    &__item{
-        color: var(--color-icon-bg-gray);
-        font-size: var(--fs-xxl);
+    &__icon{
 
         &:hover{
             color: var(--color-icon-hover);

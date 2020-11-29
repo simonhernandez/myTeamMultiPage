@@ -653,12 +653,7 @@ small {
   margin-right: 1rem;
 }
 
-.social__item {
-  color: var(--color-icon-bg-gray);
-  font-size: var(--fs-xxl);
-}
-
-.social__item:hover {
+.social__icon:hover {
   color: var(--color-icon-hover);
 }
 
