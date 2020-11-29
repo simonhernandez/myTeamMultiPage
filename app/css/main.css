@@ -332,6 +332,10 @@ small {
   line-height: var(--lh-sm);
 }
 
+em {
+  font-weight: var(--fw-medium);
+}
+
 .text-md {
   font-size: var(--fs-md);
 }
