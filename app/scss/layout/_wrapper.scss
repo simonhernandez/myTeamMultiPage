@@ -7,7 +7,7 @@
 .wrapper{
     width: 100%;
     height: inherit;
-    max-width: 1200px;
+    max-width: 1110px;
     margin: 0 auto;
     background-color: transparent;
 
@@ -30,12 +30,12 @@
 
     // Padding
 
-    padding: 0 2rem;
+    padding: 0 var(--space-md);
 
     @include breakpoint-up(medium){
-        padding: 0 2.4375rem;
+        padding: 0 5.38889rem;
     }
     @include breakpoint-up(large){
-        padding: 0 2rem;
+        padding: 0;
     }
 }
