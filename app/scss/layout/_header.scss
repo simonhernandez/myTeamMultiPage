@@ -85,6 +85,10 @@
 
             &__menu{
                 @include flex(fs, c, row);
+
+                .shape{
+                    display: none;
+                }
             }
 
             &__item{

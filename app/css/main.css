@@ -1345,6 +1345,9 @@ small {
         -ms-flex-direction: row;
             flex-direction: row;
   }
+  .header .nav__menu .shape {
+    display: none;
+  }
   .header .nav__item:not(:last-of-type) {
     margin-bottom: initial;
     margin-right: var(--space-xl);
