@@ -66,6 +66,12 @@ textarea {
   font-family: inherit;
 }
 
+input,
+textarea {
+  display: block;
+  width: 100%;
+}
+
 address {
   font-style: normal;
 }
