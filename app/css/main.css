@@ -423,7 +423,7 @@ small {
 
 .form input,
 .form textarea {
-  padding: 0 .77778rem;
+  padding: 0 0.77778rem var(--space-sm);
   border-bottom: 0.05556rem solid var(--color-input-border-normal);
   color: var(--color-input-text-normal);
 }
