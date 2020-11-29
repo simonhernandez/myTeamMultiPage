@@ -42,50 +42,6 @@
                 left: 0;
                 bottom: 0;
             }
-
-            &--home-6{
-                left: 0;
-                bottom: 0;
-            }
-        }
-
-        // Tablet Styles
-        @include breakpoint-up(medium){
-            .shape{
-                &--home-2{
-                    right: 0;
-                    left: 0;
-                    bottom: 0;
-                    margin: 0 auto;
-                }
-            }
-        }
-
-        // Desktop Styles
-        @include breakpoint-up(large){
-            .shape{
-
-                &--home-2{
-                    margin: initial;
-                    left: initial;
-                }
-
-                &--home-3{
-                    top: initial;
-                    bottom: 0;
-                }
-            }
-        }
-
-        @include breakpoint-up(xlarge){
-            .shape{
-
-                &--home-1{
-                    display: block;
-                    top: 60px;
-                    left: -100px;
-                }
-            }
         }
     }
 }

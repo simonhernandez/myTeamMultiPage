@@ -1576,39 +1576,6 @@ small {
   bottom: 0;
 }
 
-.main--about .shape--home-6 {
-  left: 0;
-  bottom: 0;
-}
-
-@media screen and (min-width: 640px) {
-  .main--about .shape--home-2 {
-    right: 0;
-    left: 0;
-    bottom: 0;
-    margin: 0 auto;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .main--about .shape--home-2 {
-    margin: initial;
-    left: initial;
-  }
-  .main--about .shape--home-3 {
-    top: initial;
-    bottom: 0;
-  }
-}
-
-@media screen and (min-width: 1400px) {
-  .main--about .shape--home-1 {
-    display: block;
-    top: 60px;
-    left: -100px;
-  }
-}
-
 /*
     ------------------------
     -------- Home ----------
