@@ -27,7 +27,5 @@ function toggleMenu(){
     ------------------------
 */
 
-navToggleOpen.style.backgroundImage = hamburgerIcon;
-navToggleClose.style.backgroundImage = closeIcon;
-
-navToggle.addEventListener('click', toggleMenu);
+navToggleOpen.addEventListener('click', toggleMenu);
+navToggleClose.addEventListener('click', toggleMenu);
