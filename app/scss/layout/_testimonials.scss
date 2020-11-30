@@ -25,13 +25,13 @@
     // Tablet Styles
 
     @include breakpoint-up(medium){
-        padding: 105px 0;
+        padding: calc(var(--space-7xl) * .84) 0;
     }
 
     // Desktop Styles
 
     @include breakpoint-up(large){
-        padding: var(--space-8xl);
+        padding: var(--space-8xl) 0;
 
         &__header{
             margin-bottom: var(--space-3xl);
@@ -47,7 +47,7 @@
         }
 
         &__item{
-            max-width: 350px;
+            max-width: 19.444rem;
         }
     }
 
