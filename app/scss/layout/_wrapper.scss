@@ -36,6 +36,9 @@
         padding: 0 5.38889rem;
     }
     @include breakpoint-up(large){
+        padding: 0 2rem;
+    }
+    @include breakpoint-up(xlarge){
         padding: 0;
     }
 }

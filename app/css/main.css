@@ -362,6 +362,14 @@ em {
   line-height: var(--lh-body1);
 }
 
+.text-bold {
+  font-weight: var(--fw-bold);
+}
+
+.text-italic {
+  font-style: italic;
+}
+
 /*
     ------------------------
     ------ Variables -------
@@ -1691,6 +1699,12 @@ em {
 }
 
 @media screen and (min-width: 1024px) {
+  .wrapper {
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
   .wrapper {
     padding: 0;
   }
