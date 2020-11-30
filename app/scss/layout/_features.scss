@@ -15,7 +15,7 @@
     &__header{
         padding-top: var(--space-lg);
         margin-bottom: var(--space-3xl);
-        max-width: 240px;
+        max-width: 13.3333rem;
     }
 
     &__list{
@@ -27,7 +27,7 @@
     // Tablet Styles
 
     @include breakpoint-up(medium){
-        padding: 100px 0;
+        padding: 5.55556rem 0;
 
         &__header{
             max-width: initial;
@@ -48,13 +48,13 @@
         padding: var(--space-8xl) 0;
 
         &__header{
-            padding-top: 54px;
-            max-width: 415px;
-            margin-right: 157px;
+            padding-top: 3rem;
+            max-width: 23.05556rem;
+            margin-right: 8.7222rem;
         }
 
         &__list{
-            padding-top: 54px;
+            padding-top: 3rem;
         }
     }
 }

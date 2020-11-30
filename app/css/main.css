@@ -767,7 +767,7 @@ em {
   width: 96px;
   height: 96px;
   border-radius: 50%;
-  border: 2px solid var(--color-rapture-blue-light);
+  border: var(--space-xxxs) solid var(--color-rapture-blue-light);
 }
 
 .profile__hidden-container {
@@ -807,7 +807,7 @@ em {
 }
 
 .testimonial__quote {
-  padding-top: 36px;
+  padding-top: 2rem;
   margin-bottom: var(--space-sm);
   position: relative;
   z-index: var(--z-tooltip);
@@ -816,8 +816,8 @@ em {
 .testimonial__quote::before {
   content: '';
   display: block;
-  width: 67px;
-  height: 56px;
+  width: 3.7222rem;
+  height: 3.1111rem;
   background-image: url(../../../images/icon-quotes.svg);
   position: absolute;
   top: 0;
@@ -1206,7 +1206,7 @@ em {
 .features__header {
   padding-top: var(--space-lg);
   margin-bottom: var(--space-3xl);
-  max-width: 240px;
+  max-width: 13.3333rem;
 }
 
 .features__list > *:not(:last-child) {
@@ -1215,7 +1215,7 @@ em {
 
 @media screen and (min-width: 640px) {
   .features {
-    padding: 100px 0;
+    padding: 5.55556rem 0;
   }
   .features__header {
     max-width: initial;
@@ -1243,12 +1243,12 @@ em {
     padding: var(--space-8xl) 0;
   }
   .features__header {
-    padding-top: 54px;
-    max-width: 415px;
-    margin-right: 157px;
+    padding-top: 3rem;
+    max-width: 23.05556rem;
+    margin-right: 8.7222rem;
   }
   .features__list {
-    padding-top: 54px;
+    padding-top: 3rem;
   }
 }
 
@@ -1298,8 +1298,8 @@ em {
     transition: all .35s ease-in-out;
   }
   .header .nav__menu .nav__toggle {
-    width: 18px;
-    height: 17px;
+    width: 1rem;
+    height: .94444rem;
     background-image: url(../../../images/icon-close.svg);
     margin: 0 0 var(--space-xl) auto;
     display: block;
@@ -1324,8 +1324,8 @@ em {
 
 .header .nav__toggle {
   background-image: url(../../../images/icon-hamburger.svg);
-  width: 20px;
-  height: 17px;
+  width: 1.1111rem;
+  height: .94444rem;
 }
 
 @media screen and (min-width: 640px) {
@@ -1389,7 +1389,7 @@ em {
 
 @media screen and (min-width: 1024px) {
   .header {
-    padding: 73px 0;
+    padding: 4.05556rem 0;
   }
   .header .nav__logo {
     margin-right: var(--space-5xl);

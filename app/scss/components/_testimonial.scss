@@ -10,7 +10,7 @@
     text-align: center;
 
     &__quote{
-        padding-top: 36px;
+        padding-top: 2rem;
         margin-bottom: var(--space-sm);
         position: relative;
         z-index: var(--z-tooltip);
@@ -18,8 +18,8 @@
         &::before{
             content: '';
             display: block;
-            width: 67px;
-            height: 56px;
+            width: 3.7222rem;
+            height: 3.1111rem;
             background-image: url(../../../images/icon-quotes.svg);
             position: absolute;
             top: 0;
