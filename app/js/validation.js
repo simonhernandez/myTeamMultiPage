@@ -1,4 +1,8 @@
-// Variables
+/*
+    ------------------------
+    ------- Variables ------
+    ------------------------
+*/
 const form = document.getElementById('form');
 const name = document.getElementById('name');
 const email = document.getElementById('email');
@@ -7,14 +11,22 @@ const title = document.getElementById('title');
 const text = document.getElementById('text');
 var hasError;
 
-// Main
+/*
+    ------------------------
+    --------- Main ---------
+    ------------------------
+*/
 form.addEventListener('submit', e => {
     e.preventDefault();
 
     checkInputs();
 });
 
-// Functions
+/*
+    ------------------------
+    ------- Functions ------
+    ------------------------
+*/
 function checkInputs(){
     let nameValue = name.value.trim();
     let emailValue = email.value.trim();
