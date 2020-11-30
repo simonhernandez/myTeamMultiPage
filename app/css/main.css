@@ -1633,6 +1633,9 @@ em {
   .testimonials {
     padding: var(--space-8xl) 0;
   }
+  .testimonials .wrapper {
+    padding-bottom: .5rem;
+  }
   .testimonials__header {
     margin: 0 auto;
     margin-bottom: var(--space-3xl);

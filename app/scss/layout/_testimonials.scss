@@ -33,6 +33,10 @@
     @include breakpoint-up(large){
         padding: var(--space-8xl) 0;
 
+        .wrapper{
+            padding-bottom: .5rem;
+        }
+
         &__header{
             margin: 0 auto;
             margin-bottom: var(--space-3xl);
