@@ -33,6 +33,12 @@
             max-width: initial;
         }
 
+        &__list{
+            >*:not(:last-child){
+                margin-bottom: var(--space-lg);
+            }
+        }
+
     }
 
     // Desktop Styles
