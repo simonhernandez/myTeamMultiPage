@@ -284,7 +284,12 @@ address {
 
 @media screen and (min-width: 1024px) {
   :root {
+    --lh-h1-sm: 3.1111rem;
+    --lh-h1-lg: 5.555rem;
     --lh-h2: 2.6667rem;
+    --lh-h3: 1rem;
+    --lh-body1: 1.5556rem;
+    --lh-body2: 1.388889rem;
   }
 }
 
