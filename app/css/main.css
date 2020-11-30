@@ -704,6 +704,10 @@ em {
 */
 .feature__icon {
   margin: 0 auto var(--space-sm);
+  width: 4rem;
+  height: 4rem;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
 .feature__text-container {
