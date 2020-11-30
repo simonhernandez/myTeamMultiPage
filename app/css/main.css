@@ -1634,7 +1634,9 @@ em {
     padding: var(--space-8xl) 0;
   }
   .testimonials__header {
+    margin: 0 auto;
     margin-bottom: var(--space-3xl);
+    max-width: 51.7778rem;
   }
   .testimonials__list {
     display: -webkit-box;
